@@ -1,8 +1,13 @@
 package ch.zhaw.homework.le01.task3;
 
-public abstract class Obst {
+import java.io.Serializable;
 
-    abstract double getPreisInEuro(); {
+public abstract class Obst implements Cloneable {
 
-    }
+    abstract double getPreisInEuro();
+
+    abstract double getGewichtInKg();
+
+    @Override
+    public abstract Obst clone();
 }

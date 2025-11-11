@@ -18,4 +18,6 @@ public class Kiwi extends Obst implements Herkunfsland {
     public String getHerkunfsland() {
         return "Neuseeland";
     }
+
+
 }
